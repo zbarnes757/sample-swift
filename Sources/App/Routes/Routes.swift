@@ -4,7 +4,7 @@ extension Droplet {
     func setupRoutes() throws {
         get("hello") { req in
             var json = JSON()
-            try json.set("hello", "world")
+            try json.set("andrew", "this will never take off")
             return json
         }
 
